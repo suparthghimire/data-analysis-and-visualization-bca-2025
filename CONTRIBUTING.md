@@ -1,12 +1,22 @@
-### Setup the development environment
+# 💻 Contribution Guideline
 
-> Before you begin, it is better to have a terminal/CLI application that has many features. CMD/Powershell in Windows and basic shell in Mac/Linux have very less features. You can install [oh-my-posh](https://ohmyposh.dev/) on windows and [oh-my-zsh](https://ohmyz.sh/) on Mac/Linux to make the terminal/CLI have more features like listing your current git repository, showing virtual environments, etc. Optionally, for Mac and Windows you can install [Warp terminal](https://www.warp.dev/) that has built in Agent Features as well as other cosmetic features.
+> **Tip:** It's better to use a feature-rich terminal for development.
+>
+> - **Windows:** Install [oh-my-posh](https://ohmyposh.dev/)
+> - **Mac/Linux:** Install [oh-my-zsh](https://ohmyz.sh/)
+> - **Optional (Mac & Windows):** Try [Warp terminal](https://www.warp.dev/) for built-in AI and productivity features.
 
-First, you need to fork the [data analysis and visualization bca 2025](https://github.com/suparthghimire/data-analysis-and-visualization-bca-2025) on GitHub and follow the instructions at [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) to setup your SSH authentication credentials.
+---
 
-> Note you can also clone using your [PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens), however SSH is a better option as you will not have to constantly provide PAT whenever you have to push your changes
+## 🔁 Fork & Clone the Repository
 
-Then clone the [data analysis and visualization bca 2025 project](https://github.com/suparthghimire/data-analysis-and-visualization-bca-2025) and setup the development environment:
+1. Fork the [data-analysis-and-visualization-bca-2025](https://github.com/suparthghimire/data-analysis-and-visualization-bca-2025) repository.
+2. Set up SSH authentication using this guide:  
+   [🔐 Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+
+> **Note:** You can also clone using a [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens), but SSH is preferred since it avoids repeated authentication prompts.
+
+3. Clone your forked repository:
 
 ```bash
 git clone git@github.com:<YOUR_USERNAME>/data-analysis-and-visualization-bca-2025.git
@@ -14,13 +24,15 @@ git clone git@github.com:<YOUR_USERNAME>/data-analysis-and-visualization-bca-202
 cd data-analysis-and-visualization-bca-2025
 ```
 
-It is important that we create a [virtual environment](https://docs.python.org/3/library/venv.html) before proceeding to develop locally.
+## 🛠️ Setup the Development Environment
+
+1. It is important that we create a [virtual environment](https://docs.python.org/3/library/venv.html) before proceeding to develop locally.
 
 ```bash
 python -m venv venv
 ```
 
-Now to activate the virtual environment, you will have to depend on the `OS` you have.
+2. Now to activate the virtual environment, you will have to depend on the `OS` you have.
 
 - Windows
 
@@ -38,13 +50,19 @@ source venv/bin/activate
 
 After this you will see (venv) added in your terminal (if you are not using the default terminal).
 
-Now you can start working. by creating a new feature branch with following syntax: `feat/<your-first-name>`
+3. Install Required Libraries/modules
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Now you can start working. by creating a new feature branch with following syntax: `feat/<your-first-name>`
 
 ```bash
 git checkout -b feat/<your-first-name>
 ```
 
-After you finish your work and want to add a checkpoint it, you can do by following these commands
+1. After you finish your work and want to add a checkpoint it, you can do by following these commands
 
 ```bash
 # Add files to git staging area
@@ -58,7 +76,7 @@ git commit -m "<commit-message>"
 
 > Please use descriptive commit messages. To know the best practices of commit messages, [read here](https://www.conventionalcommits.org/en/v1.0.0/#summary)
 
-To submit your code, follow these steps
+2. To submit your code, follow these steps
 
 ```bash
 # Make sure you have the latest changes from main branch. Rebase your current branch with main branch
@@ -68,7 +86,7 @@ git pull parent main --rebase
 git push origin <current-branch-name>
 ```
 
-Now go-to [data analysis and visualization bca 2025 project](https://github.com/suparthghimire/data-analysis-and-visualization-bca-2025) repository and open a Pull Request from `feat/<your-branch-name>` branch to `main` branch
+3. Now go-to [data analysis and visualization bca 2025 project](https://github.com/suparthghimire/data-analysis-and-visualization-bca-2025) repository and open a Pull Request from `feat/<your-branch-name>` branch to `main` branch
 
 On the review section, select a reviewer (Usually the teacher)
 

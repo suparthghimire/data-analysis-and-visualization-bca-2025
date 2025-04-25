@@ -178,3 +178,7 @@ cython_debug/
 # The code repository will only contain the actual code and not the data points
 *.cav
 *.txt
+!requirements.txt
+*.png
+*.jpeg
+*.gif
