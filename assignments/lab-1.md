@@ -30,7 +30,8 @@ Practice creating basic visualizations using Matplotlib, Numpy, Pandas, and opti
 ## 📊 Section B: Bar and Pie Charts
 
 4. **Bar Chart – Province Populations**  
-   Use dummy data for the population of five provinces in Nepal.
+    Use dummy data for the population of five provinces in Nepal.
+   g
 
    - Create a bar chart.
    - Label each bar with the province name and set axis titles.
@@ -66,7 +67,7 @@ Practice creating basic visualizations using Matplotlib, Numpy, Pandas, and opti
 
 8. **Interactive Function Plotter**
    - Use `ipywidgets` to let a user choose:
-     - A function: `sin`, `cos`, or `tan`
+     - Checkbox to show `sin`, `cos`, `tan` curves
      - A color
      - Number of points (e.g., 50, 100, 200)
    - Plot the selected function interactively with the chosen parameters.
