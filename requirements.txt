@@ -6,3 +6,4 @@ ipywidgets
 ipython
 requests
 mplfinance
+scikit-image 
