@@ -6,4 +6,5 @@ ipywidgets
 ipython
 requests
 mplfinance
-scikit-image 
+scikit-learn
+folium
