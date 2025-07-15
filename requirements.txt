@@ -8,3 +8,5 @@ requests
 mplfinance
 scikit-learn
 folium
+networkx
+anytree
