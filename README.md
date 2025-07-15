@@ -4,11 +4,7 @@ This repository contains all lab work contents for Data Analysis And Visualizati
 
 # Libraries / Tools
 
-- Jupyter Notebook
-- Numpy
-- Pandas
-- Matplotlib
-- Seaborn
+Please refer to [requirements.txt](requirements.txt) section for libraries used
 
 # Contribution
 
