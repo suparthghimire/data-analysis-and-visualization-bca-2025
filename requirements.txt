@@ -10,3 +10,14 @@ scikit-learn
 folium
 networkx
 anytree
+wordcloud
+gensim
+spacy 
+plotly
+holoviews
+bokeh
+altair
+vega_datasets
+statsmodels
+spacy
+en_core_web_md
