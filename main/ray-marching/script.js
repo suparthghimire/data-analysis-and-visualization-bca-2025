@@ -36,7 +36,7 @@ class Scene {
   getObjects() {
     const objects = [];
     // Place objects at random spots,
-    const totalObjectsToPlace = 20;
+    const totalObjectsToPlace =15;
     for (let i = 0; i < totalObjectsToPlace; i++) {
       // create a random vector from x: 0 - width and y: this.screenOffset - 20 - height and radius from 10 - 40
       const randomX = randomRange(0, width);
