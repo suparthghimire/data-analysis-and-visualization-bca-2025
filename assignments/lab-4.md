@@ -1,4 +1,4 @@
-# Lab 3: Exploring 1D Data Visualizations
+# Lab 4: Exploring 1D Data Visualizations
 
 ## Objective
 
