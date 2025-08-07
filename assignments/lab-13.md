@@ -1,4 +1,4 @@
-# Lab 14: Ray Marching from Camera Through Screen (2D Visualization)
+# Lab 13: Ray Marching from Camera Through Screen (2D Visualization)
 
 ## Scene Specification
 

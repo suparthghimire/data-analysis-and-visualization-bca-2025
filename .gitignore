@@ -186,4 +186,4 @@ cython_debug/
 notes.txt
 *.html
 !assignments/ray-march-example.png
-!main/lab-13-ray-marching/index.html
+!*/**/lab-16-software-tools/**/*.png
