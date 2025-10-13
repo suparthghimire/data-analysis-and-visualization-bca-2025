@@ -77,3 +77,33 @@ Create all **three** of the following charts in Excel:
 ### Notes
 
 - Do **not use the Iris dataset**
+
+## Part 3: Tableu Visualization
+
+### Task
+
+Use **Tableau Public** or **Tableau Desktop** to visualize a dataset **other than the Iris dataset**. You may use any public dataset (e.g., Titanic, Superstore, Airbnb, Sales, or a dataset from previous coursework).
+
+### Required Visualizations
+
+Create **at least five** of the following chart types:
+
+- **Bar Chart**
+- **Scatter Plot**
+- **Box Plot**
+- **Histogram**
+- **Pie Chart**
+
+### Deliverables
+
+- Tableau Workbook file (`.twbx`) OR a link to your **published dashboard** on Tableau Public
+- Screenshots of final created dashboard
+
+### Notes
+
+- Do **not use the Iris dataset**
+- Make sure your dataset has at least some numeric and categorical fields
+
+---
+
+## Part 4: Java
