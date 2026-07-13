@@ -20,4 +20,4 @@ altair
 vega_datasets
 statsmodels
 spacy
-en_core_web_md
+yfinance
